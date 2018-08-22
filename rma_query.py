@@ -281,11 +281,11 @@ class Trogscraper():
     def scraper(self, queryPage):
         """
         Begins scraping process by accumulating all of the id's from:
-        https://trogdor.siliconmechanics.com/warehouse/vrma_list.php
+        https://trogdor.wpanderson.com/warehouse/vrma_list.php
         This allows an accumulation of all of the RMA tickets in trogdor, as well as a way to navigate to
         their various pages. Once accumulated rmaThreadManager is started.
 
-        :param queryPage: https://trogdor.siliconmechanics.com/warehouse/vrma_list.php
+        :param queryPage: https://trogdor.wpanderson.com/warehouse/vrma_list.php
         """
         rmaIDPattern = r'id=(\d+)">V\d+'
         # Matches: Group 1: Vendor, Group 2: Items, Group 3: Date created... One regex to rule them all
