@@ -891,7 +891,7 @@ if __name__ == '__main__':
     elif selected == '2':
         trog_object = Trogscraper('RMA Query', userName=userName, password=userPassword)
         trog_object.login()
-        trog_object.scraper('https://trogdor.siliconmechanics.com/warehouse/vrma_list.php')
+        trog_object.scraper('https://trogdor.wpanderson.com/warehouse/vrma_list.php')
 
     # session = userLogin()
     # session = toq_ops_query()
