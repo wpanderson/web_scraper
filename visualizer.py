@@ -2,7 +2,7 @@ __author__ = 'wpanderson'
 
 #plotly initialization
 import plotly
-plotly.tools.set_credentials_file(username='wpanderson', api_key='fBQ3DP4TUhxnhP9ooCiW') #initialize plotly key
+plotly.tools.set_credentials_file(username='', api_key='') #initialize plotly key
 plotly.tools.set_config_file(world_readable=False, sharing='private')
 
 #bokeh imports
