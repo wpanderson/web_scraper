@@ -25,9 +25,6 @@ TO_ADDR  = ['TO']
 EMAIL_PASS = 'PW'
 USER_NAME = FROM_ADDR
 
-'''TROGDOR SCRAPER WARNING: VERY TAXING ON TROGDOR AND SHOULD ONLY BE RUN ON THE DEV SYSTEM OR AFTER HOURS'''
-
-#Production instances for up to date data IT will get yelly though... So use after hours only!
 INDEX = ''
 RMA_TICKET_LIST = ''
 RMA_TICKET_INFO = ''
