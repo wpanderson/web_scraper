@@ -19,39 +19,28 @@ from email.mime.text import MIMEText
 from email.utils import COMMASPACE, formatdate
 
 #Email settings
-FROM_ADDR = 'automation@siliconmechanics.com'
-TO_ADDR  = ['weston.anderson@siliconmechanics.com']
-EMAIL_PASS = 'Platinumcraftedmelon_15'
+FROM_ADDR = ''
+TO_ADDR  = ['']
+EMAIL_PASS = ''
 USER_NAME = FROM_ADDR
 
 '''TROGDOR SCRAPER WARNING: VERY TAXING ON TROGDOR AND SHOULD ONLY BE RUN ON THE DEV SYSTEM OR AFTER HOURS'''
 
 
 #Production instances for up to date data IT will get yelly though...
-INDEX = 'https://trogdor.siliconmechanics.com'
+INDEX = ''
 # get all id fields from this list
-ENGINEERING_TICKETS_LIST= 'https://trogdor.siliconmechanics.com/engineering/saleseng_ticket_list.php'
+ENGINEERING_TICKETS_LIST= ''
 # attach all id fields to this sequentially
-ENGINEERING_DETAILS= 'https://trogdor.siliconmechanics.com/engineering/saleseng_ticket.php?guid='
+ENGINEERING_DETAILS= ''
 # search in ENGINEERING_DETAILS for
-ENGINEERING_QUOTES= 'https://trogdor.siliconmechanics.com/quotes/quote.php?id='
+ENGINEERING_QUOTES= ''
 
-ENGINEERING_ORDERS = 'https://trogdor.siliconmechanics.com/orders/order.php?id='
+ENGINEERING_ORDERS = ''
 #Info page for a given rma ticket id
-RMA_TICKET_INFO = 'https://trogdor.siliconmechanics.com/warehouse/vrma.php?id='
+RMA_TICKET_INFO = ''
 
 
-#TODO get new instance of dev environment for Trogdor these links are dead.
-#dev instances for testing
-# INDEX = 'https://trogdor-ccapps-trunk.siliconmechanics.com/'
-#
-# ENGINEERING_TICKETS_LIST = 'https://trogdor-ccapps-trunk.siliconmechanics.com/engineering/saleseng_ticket_list.php'
-#
-# ENGINEERING_DETAILS = 'https://trogdor-ccapps-trunk.siliconmechanics.com/engineering/saleseng_ticket.php?guid='
-#E_QUOTES and E_ORDERS denote the location of specifications for a given ticket
-# ENGINEERING_QUOTES = 'https://trogdor-ccapps-trunk.siliconmechanics.com/quotes/quote.php?id='
-#
-# ENGINEERING_ORDERS = 'https://trogdor-ccapps-trunk.siliconmechanics.com/orders/order.php?id='
 
 
 
